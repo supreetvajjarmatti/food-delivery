@@ -9,10 +9,17 @@ Currently, two official plugins are available:
 
 
 create folder name food-del
+
 Create React Project - npm create vite@latest
+
 Enter project name - frontend
+
 React
+
 Javascript
+
 cd frontend
+
 npm install
+
 npm run dev
