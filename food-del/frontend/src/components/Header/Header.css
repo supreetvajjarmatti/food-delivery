@@ -33,6 +33,7 @@
     background-color: white;
     font-size: max(1vw,13px);
     border-radius: 50px;
+    cursor: pointer;
 }
 
 @keyframes fadeIn {
