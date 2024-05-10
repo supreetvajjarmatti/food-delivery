@@ -4,6 +4,7 @@
     background: url('/header_img.png') no-repeat;
     background-size: contain;
     position: relative;
+    background-position: center;
 }
 .header-content{
     position: absolute;
