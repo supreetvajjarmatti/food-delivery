@@ -22,7 +22,7 @@ const placeOrder = async (req,res) =>{
 
 
         await newOrder.save()
-        await userModel.findOneAndUpdate(req.body.userId,{cartData:{}})
+        await userModel.findByIdAndUpdate(req.body.userId,{cartData:{}})
         const line_items = req.body.items.map((item)=>({
             price_data:{
                 currency:"inr",
