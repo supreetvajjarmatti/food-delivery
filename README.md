@@ -5,4 +5,4 @@ portfolio : https://supreet-vajjaramatti-portfolio.netlify.app/
 
 
 
-all rights own by @supreetvajjarmatti
+all copyright rights own by @supreetvajjarmatti 2k24
