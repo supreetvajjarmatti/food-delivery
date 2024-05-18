@@ -168,3 +168,6 @@ else if(getTotalCartAmount()===0){
 };
 
 export default PlaceOrder;
+
+
+

@@ -8,15 +8,34 @@ import Footer from './components/Footer/Footer'
 import LoginPopup from './components/LoginPopup/LoginPopup'
 import Verify from './pages/Verify/Verify'
 import MyOrders from './pages/MyOrders/MyOrders'
+import ScrollTopBotton from './components/ScrollToTopButton/ScrollToTopButton'
+import CookieConsentPopup from './components/CookieConsentPopup/CookieConsentPopup'
 
 const App = () => {
 
   const [showlogin,setShowLogin] = useState(false)
+
+  const [acceptedCookies, setAcceptedCookies] = useState(false);
+
+  const handleAcceptCookies = () => {
+    setAcceptedCookies(true);
+  };
+
+  const handleRejectCookies = () => {
+    // Handle cookie rejection if needed
+    setAcceptedCookies(false);
+  };
+
   return (
     <>
     {showlogin?<LoginPopup setShowLogin={setShowLogin} />:<></>}
     <div className='app'>
       <Navbar setShowLogin={setShowLogin}/>
+      <ScrollTopBotton/>
+      
+      <CookieConsentPopup onAccept={handleAcceptCookies} onReject={handleRejectCookies} />
+      
+  
       <Routes>
         <Route path='/' element={<Home/>} />
         <Route path='/Cart' element={<Cart/>} />
@@ -24,6 +43,7 @@ const App = () => {
         <Route path='/verify' element={<Verify/>}/>
         <Route path='/myorders' element={<MyOrders/>}/>
       </Routes>
+      
       
     </div>
     <Footer/>
