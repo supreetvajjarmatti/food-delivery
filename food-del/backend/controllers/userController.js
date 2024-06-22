@@ -57,7 +57,7 @@ const registerUser = async (req, res) => {
     const newUser = new userModel({
       name: name,
       email: email,
-      password: hashedPassword,
+      password: hashedPassword
     });
 
     const user = await newUser.save();

@@ -11,7 +11,7 @@ const LoginPopup = ({ setShowLogin }) => {
   const [data, setData] = useState({
     name: "",
     email: "",
-    password: "",
+    password: ""
   });
 
   const onChangeHandler = (event) => {
