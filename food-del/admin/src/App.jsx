@@ -1,6 +1,6 @@
 import React from "react";
 import Navbar from "./components/Navbar/Navbar";
-import Sidebar from './components/sidebar/Sidebar.jsx'; // Ensure this matches the actual file name
+import Sidebar from './components/sidebar/sidebar'
 import { Route, Routes } from "react-router-dom";
 import Add from "./pages/Add/Add";
 import List from "./pages/List/List";
@@ -16,7 +16,7 @@ const App = () => {
       <Navbar />
       <hr />
       <div className="app-content">
-        <Sidebar />
+        <Sidebar/>
         <Routes>
           <Route path="/add" element={<Add url={url}/>} />
           <Route path="/list" element={<List url={url} />} />
