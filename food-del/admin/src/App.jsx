@@ -1,6 +1,6 @@
 import React from "react";
 import Navbar from "./components/Navbar/Navbar";
-import Sidebar from './components/sidebar/Sidebar.jsx'; // Adjusted to match the file name
+import Sidebar from './components/sidebar/sidebar.jsx'; // Adjusted to match the file name
 import { Route, Routes } from "react-router-dom";
 import Add from "./pages/Add/Add";
 import List from "./pages/List/List";
