@@ -6,14 +6,6 @@ import upload_area from './upload_area.png'
 import parcel_icon from './parcel_icon.png'
 import foodie from './foodie.png'
 
-<<<<<<< HEAD
-export const url = 'https://food-del-backend-k81l.onrender.com'
-
-export const currency = '₹'
-=======
-
-
->>>>>>> ecabe4722938368ffdc4c27ebc4ba45a0f707b11
 
 export const assets ={
     logo,
