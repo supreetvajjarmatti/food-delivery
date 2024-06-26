@@ -2,9 +2,8 @@
 
 #foodie.
 
-admin panel http://localhost:5174/
-backend 
-frontend http://localhost:5173/
+demo live link : https://food-del-frontend-ar7s.onrender.com
+
 
 
 <img width="947" alt="Annotation 2024-05-17 151714" src="https://github.com/supreetvajjarmatti/food-delivery/assets/119556076/f3a27580-17b3-4b3f-91dd-14bc16901f4f">

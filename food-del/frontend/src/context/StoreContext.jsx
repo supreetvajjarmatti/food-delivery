@@ -1,11 +1,13 @@
 import axios from "axios";
 import React, { createContext, useEffect, useState } from "react";
-
+import { food_list,menu_list } from "../assets/assets"
 export const StoreContext = createContext(null);
 
 export const StoreContextProvider = (props) => {
-  const [cartItems, setCartItems] = useState({});
+
   const url = "https://food-del-backend-k81l.onrender.com";
+  const [cartItems, setCartItems] = useState({});
+  const [foodlist, setFoodList] = useState([]);
   const [token, setToken] = useState("");
   const [food_list, setFoodList] = useState([]);
 
